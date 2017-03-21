@@ -5,10 +5,8 @@ class GentleClass(object):
         else:
             return "Say a magic word!"
 
-    # def __getattr__(self, item):
-    #     return item
 
 GClass = GentleClass()
 GClass.x = 'Some arg'
-print GClass.x
-print GClass.x_please
+print(GClass.x)
+print(GClass.x_please)

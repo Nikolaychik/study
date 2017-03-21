@@ -21,4 +21,3 @@ my_1 = MyBaseClass()
 my_2 = MyBaseClass()
 print(my_1.arg == my_2.arg)
 print(my_1 == my_2)
-
