@@ -18,6 +18,7 @@ class House:
     roof = None
     colour = None
 
+
 class Builder:
     house = None
 
@@ -29,6 +30,7 @@ class Builder:
 
     def paint_house(self):
         pass
+
 
 class WhiteHouseBuilder(Builder):
     house = House()
